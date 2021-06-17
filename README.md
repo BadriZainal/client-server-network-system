@@ -1,2 +1,6 @@
 # client-server-network-system
 The implementation of a network system for basecalling purpose with given base given as follow : { 'A': 329.0525, 'C': 305.0413, 'G': 345.0474, 'U': 306.0253}. The user is able to input 2 numbers at a time into the client interface and it will notify any presence of the base.
+
+I received this problem statement during an interview for a data analysis and algorihtm develpoment intern. The problem statement is as shown as below:
+
+Please use Python3 to implement a network system; it consists of two parts, the client and the server, both running on the console(terminal). The server runs on the local port 9999 and receives data (a list of floats) from clients. It analyzes the floats, finds all the basecallings, and return them to the client. The client receives user input (comma-separated floats) from the console and sends it to the server. If it gets the data responded from the server, it will print the data onto the console. Definitions: basecalling: if the difference between two floats, floatv and floatu, approximately equals any value of the dict { 'A': 329.0525, 'C': 305.0413, 'G': 345.0474, 'U': 306.0253}, it is called a basecalling, denoted as a tuple (floatv, floatu, base). Where base is ‘A’, ‘C’, ‘G’, or ‘U’. Approximately equal: if |floatm – floatn| <= 1E-6 , then we say that floatm approximately equals floatn.
